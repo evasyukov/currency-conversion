@@ -1,0 +1,138 @@
+.converter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-row {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+
+input {
+    width: 240px;
+
+    border: none;
+    border-bottom: 2px solid #2a3245;
+
+    background: transparent;
+    color: white;
+
+    font-size: 56px;
+    font-weight: 700;
+
+    padding-bottom: 8px;
+
+    transition: .2s;
+}
+
+input:focus {
+    outline: none;
+    border-color: #8b5cf6;
+}
+
+input::placeholder {
+    background: linear-gradient(90deg, #281a47, #3c1442);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    display: inline-block;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+select {
+    appearance: none;
+    background: transparent;
+    border: none;
+    color: white;
+
+    font-size: 28px;
+    font-weight: 600;
+
+    cursor: pointer;
+
+    option {
+        color: #000;
+    }
+}
+
+select:focus {
+    outline: none;
+}
+
+.arrow {
+    margin: 36px 0;
+    font-size: 34px;
+    color: #8b5cf6;
+}
+
+.output-row {
+    margin-bottom: 36px;
+}
+
+.convert {
+    width: 180px;
+    height: 42px;
+
+    border: none;
+    border-radius: 10px;
+
+    background: #171f30;
+    color: white;
+
+    font-size: 15px;
+    font-weight: 600;
+
+    cursor: pointer;
+    transition: .2s;
+}
+
+.convert:hover {
+    background: #202a41;
+    box-shadow: 0 0 18px rgba(139, 92, 246, .18);
+}
+
+.result {
+    margin-top: 48px;
+    text-align: center;
+}
+
+.result h2 {
+    font-size: 54px;
+    font-weight: 700;
+
+    background: linear-gradient(90deg,
+            #8b5cf6,
+            #d946ef);
+
+    -webkit-background-clip: text;
+    color: transparent;
+
+    margin-bottom: 12px;
+}
+
+.result p {
+    display: inline-block;
+
+    margin-top: 12px;
+    padding: 8px 14px;
+
+    border-radius: 999px;
+
+    background: #131a2b;
+    color: #8d97ad;
+
+    font-size: 14px;
+    font-weight: 500;
+}
