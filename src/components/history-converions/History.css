@@ -15,3 +15,33 @@
   grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
   gap: 18px;
 }
+
+.history-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+
+  background: #111827;
+
+  border-radius: 14px;
+  padding: 18px;
+
+  transition: 0.2s;
+}
+
+.history-item:hover {
+  background: #181f30;
+
+  transform: translateY(-2px);
+}
+
+.history-item strong {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.history-item span {
+  color: #8b5cf6;
+  font-size: 18px;
+}
