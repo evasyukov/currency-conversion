@@ -9,6 +9,7 @@ export function Conversion() {
           <option>USD</option>
           <option>EUR</option>
         </select>
+
         <input type="number" placeholder="1000" />
       </div>
 

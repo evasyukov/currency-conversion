@@ -33,7 +33,8 @@ input:focus {
 }
 
 input::placeholder {
-    background: linear-gradient(90deg, #281a47, #3c1442);
+    background: linear-gradient(90deg, #31254c, #48244d);
+
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
